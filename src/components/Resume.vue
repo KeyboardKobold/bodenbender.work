@@ -17,7 +17,7 @@
     import Contact from "@/components/Contact";
     import TopWedge from "@/components/TopWedge";
     export default {
-        name: "CV",
+        name: "resume",
         components: {TopWedge, Contact, Skills, Education, Projects, Experience}
     }
 </script>

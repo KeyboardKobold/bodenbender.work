@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <CV/>
+    <resume/>
   </div>
 </template>
 
 <script>
-import CV from "@/components/CV";
+import resume from "@/components/Resume";
 
 export default {
   name: 'App',
   components: {
-    CV,
+    resume,
   }
 }
 </script>
@@ -23,4 +23,5 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+* { margin: 0 !important; }
 </style>
