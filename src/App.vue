@@ -1,27 +1,34 @@
 <template>
   <div id="app">
-    <resume/>
+    <div id="content">
+      <Navigation class="navigation"></Navigation>
+    </div>
   </div>
 </template>
 
 <script>
-import resume from "@/components/Resume";
+import Navigation from "@/components/Navigation";
 
 export default {
   name: 'App',
   components: {
-    resume,
+    Navigation,
   }
 }
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #272727;
 }
-* { margin: 0 !important; }
+
+.navigation {
+
+}
+
 </style>
