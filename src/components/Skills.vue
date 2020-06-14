@@ -44,10 +44,12 @@
 
         <div class="preferences toplevel">
             <h2>My Preferences</h2>
-            <p>Workflow: Agile</p>
-            <p>OS: Linux or Windows 10 with WSL</p>
-            <p>CVS: Git</p>
-            <p>CI/CD: GitLab</p>
+            <ul>
+                <li><p>Workflow: Agile</p></li>
+                <li><p>OS: Linux or Windows 10 with WSL</p></li>
+                <li><p>CVS: Git</p></li>
+                <li><p>CI/CD: GitLab</p></li>
+            </ul>
         </div>
     </div>
 </template>
@@ -64,7 +66,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    margin: 0 15%;
+    margin: 0 15% 3em 15%;
 }
 
 .skills-table {
@@ -79,6 +81,7 @@
 
 h2 {
     align-content: flex-start;
+    margin: 0 0 1em 0;
 }
 
 </style>

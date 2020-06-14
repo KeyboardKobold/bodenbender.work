@@ -2,22 +2,22 @@
     <div class="content">
         <!-- TODO add sidebar links for xing, linkedin, resume pdf, other webapps -->
         <div class="left-nav">
-            <ul>
-                <a class="github" href="https://github.com/KeyboardKobold">
-                    <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/github.svg" />
-                </a>
-                <a class="gitlab" href="https://gitlab.com/KeyboardKobold">
-                    <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gitlab.svg" />
-                </a>
-                <a class="linkedin" href="https://www.linkedin.com/in/christianbodenbender">
-                    <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/linkedin.svg" />
-                </a>
-                <a class="xing" href="https://www.xing.com/profile/Christian_Bodenbender">
-                    <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/xing.svg" />
-                </a>
-
-                <b-button class="cv" size="sm" variant="outline-light" disabled >Resumé</b-button>
-            </ul>
+            <a class="github" href="https://github.com/KeyboardKobold">
+                <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/github.svg" />
+            </a>
+            <a class="gitlab" href="https://gitlab.com/KeyboardKobold">
+                <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gitlab.svg" />
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/christianbodenbender">
+                <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/linkedin.svg" />
+            </a>
+            <a class="xing" href="https://www.xing.com/profile/Christian_Bodenbender">
+                <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/xing.svg" />
+            </a>
+            <a class="mail" href="mailto:bodenbender@bodenbender.work">
+                <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mail-dot-ru.svg" />
+            </a>
+            <b-button class="cv" size="sm" variant="outline-light" disabled >Resumé</b-button>
         </div>
     </div>
 </template>

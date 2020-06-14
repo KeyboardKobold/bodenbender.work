@@ -8,7 +8,7 @@
             <h1>Christian Bodenbender</h1>
 
             <h2>Software Development with &#10084;</h2>
-            <h2>in Marburg</h2>
+            <h2 class="center">in Marburg</h2>
         </div>
     </div>
 </template>
@@ -42,6 +42,10 @@
 .image img {
     height: 12em;
     border-radius: 50%;
+}
+
+.center {
+    text-align: center;
 }
 
 </style>

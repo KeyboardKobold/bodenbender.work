@@ -1,26 +1,16 @@
 <template>
   <div id="app">
     <Navigation id="navigation"/>
-    <div id="content">
-      <About id="about"/>
-      <hr>
-      <div id="panels">
-        <Skills/>
-      </div>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Navigation from "@/components/Navigation";
-import Skills from "@/components/Skills";
-import About from "@/components/About";
 
 export default {
-  name: 'App',
+  name: 'Christian Bodenbender',
   components: {
-    About,
-    Skills,
     Navigation,
   }
 }
@@ -35,6 +25,7 @@ export default {
   background-color: #1A1A1A;
   min-height: 100vh;
   color: #fff;
+  padding: 0 0 5em 0;
 }
 
 #content {
@@ -58,6 +49,5 @@ hr {
   color: #747474;
   background-color: #747474;
 }
-
 
 </style>
