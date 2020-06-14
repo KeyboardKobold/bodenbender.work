@@ -1,5 +1,5 @@
 <template>
-    <div id="content">
+    <div class="content">
         <About id="about"/>
         <hr>
         <div id="panels">
@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
     import About from "@/components/About";
     import Skills from "@/components/Skills";
     export default {
@@ -19,5 +18,11 @@
 </script>
 
 <style scoped>
+
+    #panels {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+    }
 
 </style>

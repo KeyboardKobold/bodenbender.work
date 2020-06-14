@@ -37,6 +37,7 @@
                         <li>MongoDB</li>
                         <li>MySQL, PostgreSQL</li>
                         <li>VueJS</li>
+                        <li>AWS</li>
                     </ul>
                 </div>
             </div>

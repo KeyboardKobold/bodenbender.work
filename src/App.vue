@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navigation id="navigation"/>
-    <router-view></router-view>
+    <div id="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -9,7 +11,7 @@
 import Navigation from "@/components/Navigation";
 
 export default {
-  name: 'Christian Bodenbender',
+  name: 'App',
   components: {
     Navigation,
   }
@@ -31,12 +33,6 @@ export default {
 #content {
   margin: 0 15% 0 15%;
   background-color: #272727;
-}
-
-#panels {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
 }
 
 #navigation {
