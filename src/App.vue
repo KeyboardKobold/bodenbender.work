@@ -6,8 +6,6 @@
       <div id="panels">
         <Skills/>
         <Projects/>
-        <!-- Demos-->
-        <div/>
       </div>
     </div>
   </div>
@@ -37,30 +35,26 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #272727;
+  background-color: #1A1A1A;
+  min-height: 100vh;
   color: #fff;
 }
 
 #content {
   margin: 0 15% 0 15%;
+  background-color: #272727;
 }
 
-#about {
-  margin: 2em 10% 2em 10%;
-}
+
 
 #panels {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-evenly;
 }
 
-#panels *{
-  size: auto;
-  border: 1px solid;
-  border-color: black;
-  flex-grow: 1;
-  flex-basis: 0;
+#navigation {
+  background-color: #14A76C;
 }
 
 

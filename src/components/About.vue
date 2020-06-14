@@ -1,6 +1,5 @@
 <template>
     <div class="content">
-
         <div class="image">
             <img src="../assets/profile.jpg"/>
         </div>
@@ -26,18 +25,18 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 5em 10em 2em 10em;
 }
 
 .text {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    flex-grow: 3;
+    margin: 0 3em 0 3em;
 }
 
 .image {
-    margin: 0 2em 0 2em;
-    flex-grow: 1;
+    margin: 0 3em 0 3em;
 }
 
 .image img {
