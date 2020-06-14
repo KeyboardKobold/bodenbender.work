@@ -1,24 +1,53 @@
 <template>
     <div class="content">
-        <h2>Technical Skills</h2>
 
-        <div class="skills">
-            <div class="skill">
-                <img height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/java.svg" />
-                <p>Java, JEE</p>
-            </div>
-            <div class="skill">
+        <div class="edu toplevel">
+            <h2>Education</h2>
+            <p>Graduated <a href="https://www.thm.de/">TH Mittelhessen University of Applied Sciences</a> in March of 2019, attaining a Bachelor of Science in Computer Science.</p>
+        </div>
 
+        <div class="skills toplevel">
+            <h2>Professional Skills</h2>
+
+            <div class="skills-table">
+                <div class="prog">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Java, JEE</li>
+                        <li>Kotlin</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Basic</li>
+                        <li>SQL</li>
+                        <li>Javascript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="frame">
+                    <h3>Frameworks and Tooling</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>GitLab CI/CD</li>
+                        <li>Maven</li>
+                        <li>Gradle</li>
+                        <li>Git</li>
+                        <li>Perforce</li>
+                        <li>Vertx</li>
+                        <li>MongoDB</li>
+                        <li>MySQL, PostgreSQL</li>
+                        <li>VueJS</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <h2>Experience</h2>
-        <div class="skills">
-            <!-- stuff like agile, scrum, kanban etc, logoless text -->
-            <!-- div class="skill">
-                <img height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/java.svg" />
-                <p>Java</p>
-            </div-->
+        <div class="preferences toplevel">
+            <h2>My Preferences</h2>
+            <p>Workflow: Agile</p>
+            <p>OS: Linux or Windows 10 with WSL</p>
+            <p>CVS: Git</p>
+            <p>CI/CD: GitLab</p>
         </div>
     </div>
 </template>
@@ -31,35 +60,25 @@
 
 <style scoped>
 
-.skills {
+.content {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 0 15%;
+}
+
+.skills-table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.toplevel {
     margin: 2em 0 0 0;
 }
 
-.skill {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    font-size: 2em;
-}
-
-.skill img {
-    flex-grow: 1;
-}
-
-.skill p {
-    flex-grow: 8;
-}
-
-.skills >>> img{
-    filter: invert(1);
-}
-
 h2 {
-    text-decoration: underline;
+    align-content: flex-start;
 }
-
 
 </style>
