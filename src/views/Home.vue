@@ -19,10 +19,4 @@
 
 <style scoped>
 
-    #panels {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-evenly;
-    }
-
 </style>

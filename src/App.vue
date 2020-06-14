@@ -46,4 +46,10 @@ hr {
   background-color: #747474;
 }
 
+@media screen and (max-width: 720px) {
+  #content {
+    margin: 0;
+  }
+}
+
 </style>

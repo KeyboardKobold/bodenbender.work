@@ -48,4 +48,20 @@
     text-align: center;
 }
 
+@media screen and (max-width: 720px) {
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 5em 1em 2em 1em;
+        text-align: center;
+    }
+
+    .image img {
+        height: 70vw;
+        border-radius: 50%;
+        margin: 0 0 2em 0;
+    }
+}
+
 </style>
