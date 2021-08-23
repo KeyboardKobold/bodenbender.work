@@ -5,8 +5,8 @@
         <div class="contact">
             <h2>Contact</h2>
             <p>Christian Bodenbender</p>
-            <p>Lilienstraße 9, DE-35043 Marburg</p>
-            <p>Contact can be established via email to <a class="mail" href="mailto:bodenbender@bodenbender.work">bodenbender at bodenbender.work</a></p>
+            <p>Hinterfeld 18, D-35043 Marburg</p>
+            <p>Contact can be established via email to <a class="mail" href="mailto:bodenbender@protonmail.com">bodenbender at protonmail.com</a></p>
         </div>
 
         <div class="tech">
