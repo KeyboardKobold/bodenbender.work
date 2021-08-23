@@ -13,7 +13,7 @@
             <a class="xing" href="https://www.xing.com/profile/Christian_Bodenbender">
                 <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/xing.svg" />
             </a>
-            <a class="mail" href="mailto:christian@bodenbender.work">
+            <a class="mail" href="mailto:bodenbender@protonmail.com">
                 <img height="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mail-dot-ru.svg" />
             </a>
             <b-button class="cv" size="sm" variant="outline-light" disabled >Resumé</b-button>
